@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(237, 206, 138);
+    background-image: url(images/green-gobbler.png);
+    transition: 0.6s linear;
+    font-family: "open sans",sans-serif;
+    height:100vh;
+}
+
+
+
+.product-card{
+    max-width: 400px;
+    margin: 100px auto;
+   
+    
+
+}
+
+.carousel-inner{
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    -webkit-box-shadow: 0px 0px 7px 0px rgba(50, 50, 50, 0.75);
+-moz-box-shadow:    0px 0px 7px 0px rgba(50, 50, 50, 0.75);
+box-shadow:         0px 0px 7px 0px rgba(50, 50, 50, 0.75);
+}
+
+
+
+
+.product-card:hover{
+   
+    cursor: pointer;
+}
+
+
+.weather-icons{
+    padding: 20px 10px 0 35px;
+    word-spacing: 10pt;
+    color: #ffffff;
+
+}
+
+
+
+.headings {
+    padding:250px 0 0 30px;
+    font-size: 20px;
+    color:#ffffff;
+
+}
+
+.headings-two{
+    display: flex;
+    flex-direction: row;
+}
+
+.headings-two h2{
+    padding: 10px 0 0 35px;
+    color:#4e5472;
+
+
+}
+
+.headings-two img{
+    width: 70px;
+    height: 30px;
+    margin: 0 0 0 100px;
+}
+
+form{
+    max-width: 70%;
+    margin: auto;
+    padding: 0 0 3em 0;
+}
+
+
+
+.white{
+    
+    background: rgb(13,141,162);
+    background: linear-gradient(0deg, rgba(13,141,162,1) 6%, rgba(154,227,224,1) 100%);    width: 100%;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    -webkit-box-shadow: 0px 0px 7px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    0px 0px 7px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         0px 0px 7px 0px rgba(50, 50, 50, 0.75); 
+
+}
+
+.white .form-label{
+    color: whitesmoke;
+}
+
+.btn{
+    background-color: orange;
+}
+
+.form-group{
+    color: whitesmoke;
+}
+
+
+
+
+.product-card p{
+    padding: 25px 30px 0 35px;
+    line-height: 20pt;
+    letter-spacing: 1pt;
+    color: #97a1b1;
+    font-size: 14px;
+
+
+
+}
+
+.headings-two h2{
+    padding: 10px 10px 0 35px;
+    color:#4e5472;
+
+
+
+}
+
+.white h2{
+    color: rgb(173, 2, 2);
+    padding: 30px 10px 0 50px;
+    font-size: 23px;
+
+}
+
+.checked {
+    color: orange;
+  }
+
+#exampleInputEmail1{
+    background-color: rgb(245, 234, 215);
+}
+#exampleInputName1{
+    background-color: rgb(245, 234, 215);
+
+}
+#exampleInputDOB1{
+    background-color: rgb(245, 234, 215);
+
+}
+
+
+
+
+
